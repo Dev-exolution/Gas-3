@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogue Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section#dialogue {
+            margin-top: 20px;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e0f7fa;
+        }
+        .message:nth-child(even) {
+            background-color: #ffe0b2;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dialogue Website</h1>
+    </header>
+    <main>
+        <section id="dialogue">
+            <div class="message">
+                <p><strong>Person 1:</strong> Hello, how are you?</p>
+            </div>
+            <div class="message">
+                <p><strong>Person 2:</strong> I'm good, thank you! How about you?</p>
+            </div>
+            <!-- Add more messages here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dialogue Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
